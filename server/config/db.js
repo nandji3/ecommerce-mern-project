@@ -17,4 +17,4 @@ const connectDB = async (retries = MAX_RETRIES) => {
     }
 };
 
-module.exports = connectDB;
+module.exports = { connectDB };
